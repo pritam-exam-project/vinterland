@@ -63,6 +63,12 @@ No build tools, packages, or dependencies are required.
 
 ---
 
+## Live Demo
+
+[View the live virtual aquarium demo](https://pritam-exam-project.github.io/vinterland/)
+
+---
+
 ## Local Resources
 
 All images and other visual resources used by the website are stored locally in the `bilder/` directory. The project does not link to external images, videos, fonts, or libraries.
