@@ -1,0 +1,438 @@
+<!doctype html>
+<html lang="no">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hjemmeside-Vinterland</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <!--Polygon for mountain and ski animations-->
+      <div id="mountain">
+        <svg class="peak">
+          <polyline
+            points="0,60 80,0 160,60
+                      120,30 150,10 240,60"
+          />
+        </svg>
+        <img id="skiing" src="bilder/skiing.png" alt="Skiing" />
+      </div>
+      <!--Snowfall animation-->
+      <div id="snow-animation">
+        <img src="bilder/snowflake.png" alt="Snowfall" />
+        <img src="bilder/snowflake.png" alt="Snowfall" />
+        <img src="bilder/snowflake.png" alt="Snowfall" />
+        <img src="bilder/snowflake.png" alt="Snowfall" />
+        <img src="bilder/snowflake.png" alt="Snowfall" />
+        <img src="bilder/snowflake.png" alt="Snowfall" />
+        <img src="bilder/snowflake.png" alt="Snowfall" />
+        <img src="bilder/snowflake.png" alt="Snowfall" />
+        <img src="bilder/snowflake.png" alt="Snowfall" />
+        <img src="bilder/snowflake.png" alt="Snowfall" />
+        <img src="bilder/snowflake.png" alt="Snowfall" />
+      </div>
+      <nav>
+        <!--Header section-->
+        <div id="header-text">
+          <ul>
+            <li>
+              <h1>Velkommen til vinterland</h1>
+            </li>
+            <li>
+              <h3>
+                Oppdag de beste aktivitetene og destinasjoner for vinterferien i
+                Telemark!
+              </h3>
+            </li>
+          </ul>
+        </div>
+        <!--Navigasjon menu in header section-->
+        <div id="header-nav">
+          <ul>
+            <li><a href="#about-us">Om oss</a></li>
+            <li><a href="#activities">Aktiviteter</a></li>
+            <li><a href="#contact">Kontakt oss</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <!--Vertical menu-->
+      <aside id="vertical-menu">
+        <ul>
+          <li><a href="destinations.html">Populær Destinasjoner</a></li>
+          <li><a href="#activities">Aktiviteter</a></li>
+          <li><a href="#gallery">Bilde galleri</a></li>
+          <li><a href="#contact">Kontakt Oss</a></li>
+        </ul>
+      </aside>
+      <!--Main content-->
+      <div id="main-container">
+        <section id="about-us" class="div-box">
+          <!--About us-->
+          <h3>Om oss</h3>
+          <p>Godt nytt år 2025!!</p>
+          <p>
+            Nå er det snart vinterferie. Vi i
+            <em><strong>VINTERLAND</strong></em> hjelper dere med å finne
+            attraktive aktiviteter og destinasjoner i Telemark for deg og
+            familie dine. Telemark er en
+            <em><strong>VINTERPARADIS</strong></em> og det er mange forskjellig
+            aktiviteter dere kan velge.
+          </p>
+          <p>
+            Dere kan kombinere fantastiske skiopplevelser med andre spenende
+            vinteraktiviteter. På denne nettsiden presenterer vi topp 3
+            destinasjoner i Telemark for skitur, hytter og inne-aktiviteter.
+          </p>
+          <p>
+            Vi anbefaler å bruke vår ferie plangelegger skjema for enklere
+            planlegging av vinterferien. Velg mellom de ulike aktiviteter og
+            legg inn i kalenderen din.
+          </p>
+          <p>
+            Vennligst ta kontakt med oss for mer informasjon og gjerne skriv til
+            oss. Melding kan sendes på epost eller via kontaktskjema nederst på
+            nettsiden. Dere kan også sende deres bilde fra vinterferien som blir
+            oppdatert på våres
+            <span>
+              <a href="#gallery"> <em>bildegalleri</em></a>
+            </span>
+            på denne nettsiden.
+          </p>
+          <p>Ha en fin vinteropplevelse i Telemark.</p>
+        </section>
+        <!--Winter activities-->
+        <section id="activities" class="div-box">
+          <h3>Aktiviteter</h3>
+          <div id="vinter">
+            <div id="ski-div" class="div-box activity-box">
+              <img
+                src="bilder/ski-vinter.jpeg"
+                alt="Skitur"
+                class="activity-img"
+              />
+              <div class="div-box">
+                <h3>Skitur</h3>
+                <p>
+                  Telemark er et av Norges vakreste vinterparadis, og en skitur
+                  i dette området byr på spektakulære naturopplevelser. Regionen
+                  er kjent for sine variert terreng, fra bratte fjell til rolige
+                  daler og store vidder. Her finner du noe for alle, enten du er
+                  en erfaren toppturentusiast eller foretrekker en avslappende
+                  tur i preparerte løyper.
+                </p>
+                <p>
+                  Telemark regnes ofte som langrennssportens vugge. I Morgedal,
+                  kjent som skisportens fødested, kan du besøke museet dedikert
+                  til Sondre Norheim, mannen som revolusjonerte ski med sine
+                  banebrytende oppfinnelser. Det gir en ekstra dimensjon til
+                  skituren å vite at du går i fotsporene til skisportens
+                  pionerer.
+                </p>
+                <p>
+                  <span>
+                    <a href="destinations.html#ski-destination">
+                      <em>Klikk her!</em></a
+                    >
+                  </span>
+                  for å finne 3 topp skitur destinasjoner i Telemark.
+                </p>
+              </div>
+            </div>
+            <div id="hytte" class="div-box activity-box">
+              <img
+                src="bilder/hytttetur.jpeg"
+                alt="Hyttetur"
+                class="activity-img"
+              />
+              <div class="div-box">
+                <h3>Hyttetur</h3>
+                <p>
+                  Telemark er det perfekte stedet for en hyttetur, enten du
+                  ønsker å koble av i rolige omgivelser eller fylle dagene med
+                  aktiviteter i spektakulær natur. Regionen byr på alt fra
+                  sjarmerende tømmerhytter med nostalgisk preg til moderne
+                  luksushytter med panoramautsikt over fjell og daler.
+                </p>
+                <p>
+                  En hyttetur i Telemark er en opplevelse som varierer med
+                  årstidene. Om vinteren kan du spenne på deg skiene rett
+                  utenfor hyttedøren og nyte langrennsløyper eller ta turen til
+                  et av de mange alpinanleggene.
+                </p>
+                <p>
+                  <span>
+                    <a href="destinations.html#hytte-destination">
+                      <em>Klikk her!</em></a
+                    >
+                  </span>
+                  for å finne 3 topp hytte destinasjoner i Telemark.
+                </p>
+              </div>
+            </div>
+            <div id="inne" class="div-box activity-box">
+              <img
+                src="bilder/inneaktiviteter.jpeg"
+                alt="inne-aktiviteter"
+                class="activity-img"
+              />
+              <div class="div-box">
+                <h3>Inneaktiviteter</h3>
+                <p>
+                  Når vinterværet blir for røft for utendørsaktiviteter, tilbyr
+                  Telemark et mangfold av koselige og spennende inneaktiviteter.
+                  Enten du ønsker kulturelle opplevelser, familievennlige
+                  aktiviteter, eller bare å slappe av, finnes det noe for alle.
+                </p>
+                <p>
+                  Telemark om vinteren handler ikke bare om ski og friluftsliv-
+                  det er også et sted for varme, hygge og unike opplevelser
+                  innendørs. Enten du vil lære noe nytt, ha en avslappende dag,
+                  eller skape gode minner med familien, finnes det utallige
+                  muligheter for å gjøre vinterdagene spesielle.
+                </p>
+                <p>
+                  <span>
+                    <a href="destinations.html#inne-destination">
+                      <em>Klikk her!</em></a
+                    >
+                  </span>
+                  for å finne 3 topp inneaktivitet destinasjoner i Telemark.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!--Photo gallery with slideshow-->
+        <section id="gallery" class="div-box">
+          <h3>Bilde galleri</h3>
+          <div id="slide-show">
+            <ul id="list">
+              <li>
+                <div class="img-div">
+                  <img
+                    src="bilder/flugonfjell-skisenter-tuddal.jpg"
+                    alt="Flugofjell Skisenter Tuddal"
+                    class="scroll-img"
+                  />
+                  <div class="img-text">Flugofjell Skisenter Tuddal</div>
+                </div>
+              </li>
+              <li>
+                <div class="img-div">
+                  <img
+                    src="bilder/gaustatoppen-turishytte.webp"
+                    alt="Gaustatoppen Turisthytte"
+                    class="scroll-img"
+                  />
+                  <div class="img-text">Gaustatoppen Turisthytte</div>
+                </div>
+              </li>
+              <li>
+                <div class="img-div">
+                  <img
+                    src="bilder/gaustatoppen.jpeg"
+                    alt="Gaustatoppen"
+                    class="scroll-img"
+                  />
+                  <div class="img-text">Gaustatoppen</div>
+                </div>
+              </li>
+              <li>
+                <div class="img-div">
+                  <img
+                    src="bilder/haukelifjell-skisenter.jpeg"
+                    alt="Haukelifjell Skisenter"
+                    class="scroll-img"
+                  />
+                  <div class="img-text">Haukelifjell Skisenter</div>
+                </div>
+              </li>
+              <li>
+                <div class="img-div">
+                  <img
+                    src="bilder/hollane-seter-lifjell.jpg"
+                    alt="Hollaneseter Lifjell"
+                    class="scroll-img"
+                  />
+                  <div class="img-text">Hollaneseter Lifjell</div>
+                </div>
+              </li>
+              <li>
+                <div class="img-div">
+                  <img
+                    src="bilder/lifjell-skisenter.jpg"
+                    alt="Lifjell Skisenter"
+                    class="scroll-img"
+                  />
+                  <div class="img-text">Lifjell Skisenter</div>
+                </div>
+              </li>
+              <li>
+                <div class="img-div">
+                  <img
+                    src="bilder/lifjelltunet.jpg"
+                    alt="Lifjelltunet"
+                    class="scroll-img"
+                  />
+                  <div class="img-text">Lifjelltunet</div>
+                </div>
+              </li>
+              <li>
+                <div class="img-div">
+                  <img
+                    src="bilder/skoetebanen-skien-fritidspark.jpeg"
+                    alt="Skøytebanen Skien Fritidspark"
+                    class="scroll-img"
+                  />
+                  <div class="img-text">Skøytebanen Skien Fritidspark</div>
+                </div>
+              </li>
+              <li>
+                <div class="img-div">
+                  <img
+                    src="bilder/lifjell-skikart.png"
+                    alt="Lifjell løypekart"
+                    class="scroll-img"
+                  />
+                  <div class="img-text">Lifjell løypekart</div>
+                </div>
+              </li>
+              <li>
+                <div class="img-div">
+                  <img
+                    src="bilder/gaustatoppen-skikart.jpg"
+                    alt="Gaustatoppen løypekart"
+                    class="scroll-img"
+                  />
+                  <div class="img-text">Gaustatoppen løypekart</div>
+                </div>
+              </li>
+              <li>
+                <div class="img-div">
+                  <img
+                    src="bilder/rauland-skikart.jpg"
+                    alt="Rauland løypekart"
+                    class="scroll-img"
+                  />
+                  <div class="img-text">Rauland løypekart</div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+      </div>
+      <!--Right asidebar-->
+      <aside id="right-bar">
+        <!--Holiday planner form-->
+        <div id="plan-holiday">
+          <h3>Ferie Planlegger</h3>
+          <form>
+            <label for="destination">Destinasjon</label>
+            <input
+              type="text"
+              id="destination"
+              name="destinasjon"
+              placeholder="F.eks. Lifjell"
+              required
+            />
+            <label>Velg aktivitet</label>
+            <label for="ski" class="activity-radio"
+              >Ski
+              <input type="radio" id="ski" checked="checked" name="aktivitet" />
+            </label>
+            <label for="fjelltur" class="activity-radio"
+              >Hyttetur
+              <input
+                type="radio"
+                id="fjelltur"
+                checked="checked"
+                name="aktivitet"
+              />
+            </label>
+            <label for="hyttetur" class="activity-radio"
+              >Inneaktiviteter
+              <input
+                type="radio"
+                id="hyttetur"
+                checked="checked"
+                name="aktivitet"
+              />
+            </label>
+            <label>Velg dato</label><br />
+            <label for="date-from">Fra</label>
+            <input type="date" id="date-from" name="dato-fra" required />
+            <label for="date-to">Til</label>
+            <input type="date" id="date-to" name="dato-til" required />
+            <button type="submit">Lag din ferieplan</button>
+          </form>
+        </div>
+      </aside>
+    </main>
+    <!--Footer-->
+    <footer>
+      <div id="container-footer">
+        <div id="footer-main">
+          <!--Contacts-->
+          <div id="contact">
+            <ul>
+              <li>Kontakt</li>
+              <li>Vinterland</li>
+              <li>Telemarksvegen xx</li>
+              <li>3734 Skien</li>
+              <li>Norge</li>
+              <li>
+                <img src="bilder/phone.avif" alt="phone" /> +47 xx xx xx xx
+              </li>
+              <li>
+                <a href="mailto:post@vinterland.no">
+                  <img src="bilder/email.webp" alt="email" />post@vinterland.no
+                </a>
+              </li>
+            </ul>
+          </div>
+          <!--Contact form-->
+          <div id="contact-form">
+            <h3>Kontakt skjema</h3>
+            <form>
+              <input type="text" name="fnavn" placeholder="Fornavn" required />
+              <input type="text" name="mnavn" placeholder="Mellomnavn" />
+              <input
+                type="text"
+                name="enavn"
+                placeholder="Etternavn"
+                required
+              />
+              <input
+                type="email"
+                name="e-post"
+                placeholder="E-post adresse"
+                required
+              />
+              <textarea name="melding" placeholder="Skriv din melding" required>
+              </textarea>
+              <button type="submit">Send</button>
+            </form>
+          </div>
+          <!--Useful Links-->
+          <div id="footer-link">
+            <ul>
+              <li>Hurtig Lenker</li>
+              <li><a href="#about-us">Om oss</a></li>
+              <li><a href="#activities">Aktiviteter</a></li>
+              <li><a href="#gallery">Bildegalleri</a></li>
+              <li><a href="destinations.html">Populær Destinasjoner</a></li>
+              <li><a href="#plan-holiday">Ferie Planlegger</a></li>
+            </ul>
+          </div>
+        </div>
+        <!--Copyright-->
+        <div id="copyright">
+          <p>&copy; Vinterland 2025. Alle rettigheter reservert.</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

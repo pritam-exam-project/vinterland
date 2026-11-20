@@ -1,0 +1,441 @@
+<!doctype html>
+<html lang="no">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Destinajoner-Vinterland</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <!--Polygon for mountain and ski animations-->
+      <div id="mountain">
+        <svg class="peak">
+          <polyline
+            points="0,60 80,0 160,60
+                      120,30 150,10 240,60"
+          />
+        </svg>
+        <img id="skiing" src="bilder/skiing.png" alt="Skiing" />
+      </div>
+      <!--Snowfall animation-->
+      <div id="snow-animation">
+        <img src="bilder/snowflake.png" alt="Snowfall" />
+        <img src="bilder/snowflake.png" alt="Snowfall" />
+        <img src="bilder/snowflake.png" alt="Snowfall" />
+        <img src="bilder/snowflake.png" alt="Snowfall" />
+        <img src="bilder/snowflake.png" alt="Snowfall" />
+        <img src="bilder/snowflake.png" alt="Snowfall" />
+        <img src="bilder/snowflake.png" alt="Snowfall" />
+        <img src="bilder/snowflake.png" alt="Snowfall" />
+        <img src="bilder/snowflake.png" alt="Snowfall" />
+        <img src="bilder/snowflake.png" alt="Snowfall" />
+        <img src="bilder/snowflake.png" alt="Snowfall" />
+      </div>
+      <nav>
+        <!--Header section-->
+        <div id="header-text">
+          <ul>
+            <li>
+              <h1>Velkommen til vinterland</h1>
+            </li>
+            <li>
+              <h3>
+                Oppdag de beste aktivitetene og destinasjoner for vinterferien i
+                Telemark!
+              </h3>
+            </li>
+          </ul>
+        </div>
+        <!--Navigasjon menu in header section-->
+        <div id="header-nav">
+          <ul>
+            <li><a href="index.html">Hjem</a></li>
+            <li><a href="index.html#activities">Aktiviteter</a></li>
+            <li><a href="#contact">Kontakt oss</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <!--Vertical menu-->
+      <aside id="vertical-menu">
+        <ul>
+          <li><a href="index.html#about-us">Om oss</a></li>
+          <li><a href="index.html#activities">Aktiviteter</a></li>
+          <li><a href="index.html#gallery">Bilde galleri</a></li>
+          <li><a href="#contact">Kontakt Oss</a></li>
+        </ul>
+      </aside>
+      <!--Main content-->
+      <div id="main-container">
+        <!--Ski destinations-->
+        <section id="ski-destination" class="div-box">
+          <h3>Topp 3 ski destinasjoner i Telemark</h3>
+          <div class="destination-container">
+            <div class="container">
+              <img src="bilder/lifjellski.jpeg" alt="Lifjell Skisenter" />
+              <h3>Lifjell Skisenter</h3>
+              <div class="hidden-div">
+                <div class="destination-p">
+                  <p>
+                    Lifjell Skisenter, beliggende 12 km fra Bø i Telemark, er et
+                    familievennlig skianlegg med to heiser og fem nedfarter som
+                    varierer i lengde fra 300 til 1200 meter. Anlegget
+                    inkluderer også Lifjell Vinterland, et eget område ideelt
+                    for barn og nybegynnere innen alpint og snowboard, med en
+                    enkel løype på ca. 350 meter utstyrt med tallerkenheis.
+                  </p>
+                  <p>
+                    Lifjell Skisenter tilbyr også skiutleie, skiskole og
+                    serveringssteder i bakken, noe som gjør det til et komplett
+                    reisemål for vinteraktiviteter.
+                  </p>
+                  <p>
+                    <span>
+                      <a href="bilder/lifjell-skikart.png" target="_blank">
+                        <em>Klikk her! </em>
+                      </a>
+                    </span>
+                    for å laste ned skiløype kart.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="container">
+              <img src="bilder/rauland-skisenter.jpg" alt="Rauland Skisenter" />
+              <h3>Rauland Skisenter</h3>
+              <div class="hidden-div">
+                <div class="destination-p">
+                  <p>
+                    Rauland Skisenter er et av Norges største skianlegg,
+                    beliggende i Vinje kommune i Telemark. Anlegget består av
+                    tre sammenkoblede skiområder: Tiur, Holtardalen og Vierli,
+                    som til sammen tilbyr 12 heiser og 26 løyper av varierende
+                    vanskelighetsgrad, med en total løypelengde på 35 km.
+                  </p>
+                  <p>
+                    Rauland Skisenter er spesielt familievennlig, med dedikerte
+                    barneområder utstyrt med skibånd og enkle heiser. På Vierli
+                    finner man et aktivitetsområde for barn, inkludert
+                    miniscootere og akebakker. Barn under 6 år med hjelm kjører
+                    gratis i hele anlegget.
+                  </p>
+                  <p>
+                    <span>
+                      <a href="bilder/rauland-skikart.jpg" target="_blank">
+                        <em>Klikk her! </em>
+                      </a>
+                    </span>
+                    for å laste ned skiløype kart.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="container">
+              <img src="bilder/gaustaskisenter.jpeg" alt="Gausta Skisenter" />
+              <h3>Gausta Skisenter</h3>
+              <div class="hidden-div">
+                <div class="destination-p">
+                  <p>
+                    Gausta Skisenter, beliggende ved foten av Gaustatoppen i
+                    Telemark, er et familievennlig skianlegg kjent for sine
+                    snøsikre forhold. Anlegget tilbyr 37 løyper av varierende
+                    vanskelighetsgrad, betjent av 13 heiser, noe som gir
+                    utfordringer og opplevelser for både nybegynnere og erfarne
+                    skiløpere.
+                  </p>
+                  <p>
+                    For de yngste finnes det dedikerte barneområder med
+                    tilpassede løyper og aktiviteter, samt en skiskole som
+                    tilbyr kurs for alle aldre og ferdighetsnivåer. Snowboardere
+                    og twintip-entusiaster kan glede seg over snøparker med hopp
+                    og rails.
+                  </p>
+                  <p>
+                    <span>
+                      <a href="bilder/gaustatoppen-skikart.jpg" target="_blank">
+                        <em>Klikk her! </em>
+                      </a>
+                    </span>
+                    for å laste ned skiløype kart.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!--Hytte destinations-->
+        <section id="hytte-destination" class="div-box">
+          <h3>Topp 3 hytte destinasjoner i Telemark</h3>
+          <div class="destination-container">
+            <div class="container">
+              <img src="bilder/lifjelltunet.jpg" alt="Lifjelltunet" />
+              <h3>Lifjelltunet - Bø</h3>
+              <div class="hidden-div">
+                <div class="destination-p">
+                  <p>
+                    Lifjelltunet er en familievennlig hyttegrend med 50 hytter,
+                    beliggende på toppen av Lifjell i Bø i Midt-Telemark. Den
+                    solrike beliggenheten gir flott utsikt over Telemarks
+                    fjellandskap, og gjør det til et ideelt utgangspunkt for
+                    både fotturer og skiturer. Lifjell Ski Resort ligger kun 200
+                    meter unna, og tilbyr alpinmuligheter med to skiheiser og
+                    tre nedfarter.
+                  </p>
+                  <p>
+                    Hyttene varierer i størrelse, med kapasitet fra 4 til 10
+                    sengeplasser, og er utstyrt med fasiliteter som internett og
+                    kabel-TV.
+                  </p>
+                  <p>
+                    I tillegg er det kun 12 km til Bø sentrum, som tilbyr et
+                    bredt spekter av tjenester.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="container">
+              <img
+                src="bilder/haukelifjell-hytte.jpeg"
+                alt="Haukelifjell hytte"
+              />
+              <h3>Haukelifjell hytte</h3>
+              <div class="hidden-div">
+                <div class="destination-p">
+                  <p>
+                    Haukelifjell er et populært område for hytteutleie, spesielt
+                    attraktivt for vintersportentusiaster. Området tilbyr
+                    moderne leiligheter og hytter i ulike størrelser, mange med
+                    ski inn/ut-muligheter til Haukelifjell Skisenter.
+                  </p>
+                  <p>
+                    Haukeliseter Fjellstue, Norges største og mest besøkte
+                    DNT-hytte, ligger også i området og tilbyr overnatting for
+                    de som ønsker en tradisjonell fjellstueopplevelse.
+                  </p>
+                  <p>
+                    Haukelifjell er dermed et ideelt reisemål for de som ønsker
+                    å kombinere hytteopphold med vinteraktiviteter i vakre
+                    omgivelser.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="container">
+              <img
+                src="bilder/gaustatoppen-turishytte.webp"
+                alt="Gaustablikk Fjellhytter"
+              />
+              <h3>Gaustablikk Fjellhytter</h3>
+              <div class="hidden-div">
+                <div class="destination-p">
+                  <p>
+                    Gaustablikk er et populært hytteområde i Telemark, kjent for
+                    sin beliggenhet nær Gaustatoppen, en av Norges mest kjente
+                    fjell. Her finner du moderne hytter med vakre utsikter over
+                    fjellene og innsjøene i området.
+                  </p>
+                  <p>
+                    Gaustablikk hytte er et ideelt reisemål for ski- og
+                    vinterentusiaster. Området tilbyr nærhet til Gaustablikk
+                    Skisenter, som har et variert utvalg av skiløyper, heiser og
+                    snowboard muligheter. Hyttene ligger i et naturskjønt område
+                    med fantastisk utsikt over Gaustatoppen, og gir en koselig
+                    base etter en dag ute i snøen.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!--Indoor activities-->
+        <section id="inne-destination" class="div-box">
+          <h3>Topp 3 inne-aktivitet destinasjoner i Telemark</h3>
+          <div class="destination-container">
+            <div class="container">
+              <img src="bilder/skien-fritidspark.jpg" alt="Skien Fritidspark" />
+              <h3>Skien Fritidspark</h3>
+              <div class="hidden-div">
+                <div class="destination-p">
+                  <p>
+                    Skien Fritidspark er et stort og allsidig aktivitets- og
+                    opplevelsesområde i Skien, Telemark. Her kan du delta i en
+                    rekke innendørs og utendørs aktiviteter, inkludert svømming
+                    i det store badeanlegget, klatring, curling, og ishockey.
+                    Fritidsparken har også et treningssenter, en bowlinghall, og
+                    muligheter for tennis og volleyball.
+                  </p>
+                  <p>
+                    For familier finnes det flere lekeområder og muligheter for
+                    både fysisk aktivitet og avslapning, noe som gjør Skien
+                    Fritidspark til et populært valg året rundt.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="container">
+              <img
+                src="bilder/skieventyr-morgedal.jpeg"
+                alt="Norsk Skieventyr - skimuseum i Morgedal"
+              />
+              <h3>Norsk Skieventyr - skimuseum i Morgedal</h3>
+              <div class="hidden-div">
+                <div class="destination-p">
+                  <p>
+                    Norsk Skieventyr Museum i Morgedal, Telemark, er et unikt
+                    museum som hyller Norges status som skisportens fødested.
+                    Morgedal er kjent som "skisportens vugge", og museet gir et
+                    dyptgående innblikk i skihistorien, fra de første
+                    tradisjonelle skiene brukt av samene til utviklingen av
+                    moderne alpint og langrenn.
+                  </p>
+                  <p>
+                    Her kan du se historiske skistaver, gamle ski og annet
+                    utstyr som har vært en del av utviklingen av skisporten.
+                    Museet forteller også om viktige skihistoriske personer, som
+                    Sondre Norheim, som regnes som en av de første store
+                    skisportpionerene. Skieventyr Museum er en flott attraksjon
+                    for både skiinteresserte og de som ønsker å lære mer om
+                    Norges kulturelle arv.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="container">
+              <img src="bilder/boemuseum.jpeg" alt="Bø museum" />
+              <h3>Bø museum</h3>
+              <div class="hidden-div">
+                <div class="destination-p">
+                  <p>
+                    Bø Museum ligger i Bø i Midt-Telemark, og er et spennende
+                    lokalhistorisk museum som gir et innblikk i områdets
+                    kulturarv og tradisjoner. Museet består av flere bygninger,
+                    inkludert den gamle prestegården, og det gir besøkende
+                    muligheten til å utforske historien fra 1700- og
+                    1800-tallet. Utstillingene dekker temaer som landbruk,
+                    håndverk, og hverdagsliv, og gir et innblikk i hvordan folk
+                    levde i Telemark gjennom tidene.
+                  </p>
+                  <p>
+                    Bø Museum er et flott sted å besøke for dem som ønsker å
+                    kombinere kulturhistorie med en vinteropplevelse i Telemark.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <!--Right asidebar-->
+      <aside id="right-bar">
+        <!--Holiday planner form-->
+        <div id="plan-holiday">
+          <h3>Ferie Planlegger</h3>
+          <form>
+            <label for="destination">Destinasjon</label>
+            <input
+              type="text"
+              id="destination"
+              name="destinasjon"
+              placeholder="F.eks. Lifjell"
+              required
+            />
+            <label>Velg aktivitet</label>
+            <label for="ski" class="activity-radio"
+              >Ski
+              <input type="radio" id="ski" checked="checked" name="aktivitet" />
+            </label>
+            <label for="fjelltur" class="activity-radio"
+              >Hyttetur
+              <input
+                type="radio"
+                id="fjelltur"
+                checked="checked"
+                name="aktivitet"
+              />
+            </label>
+            <label for="hyttetur" class="activity-radio"
+              >Inneaktiviteter
+              <input
+                type="radio"
+                id="hyttetur"
+                checked="checked"
+                name="aktivitet"
+              />
+            </label>
+            <label>Velg dato</label><br />
+            <label for="date-from">Fra</label>
+            <input type="date" id="date-from" name="dato-fra" required />
+            <label for="date-to">Til</label>
+            <input type="date" id="date-to" name="dato-til" required />
+            <button type="submit">Lag din ferieplan</button>
+          </form>
+        </div>
+      </aside>
+    </main>
+    <!--Footer-->
+    <footer>
+      <div id="container-footer">
+        <div id="footer-main">
+          <!--Contacts-->
+          <div id="contact">
+            <ul>
+              <li>Kontakt</li>
+              <li>Vinterland</li>
+              <li>Telemarksvegen xx</li>
+              <li>3734 Skien</li>
+              <li>Norge</li>
+              <li>
+                <img src="bilder/phone.avif" alt="phone" /> +47 xx xx xx xx
+              </li>
+              <li>
+                <a href="mailto:post@vinterland.no">
+                  <img src="bilder/email.webp" alt="email" />post@vinterland.no
+                </a>
+              </li>
+            </ul>
+          </div>
+          <!--Contact form-->
+          <div id="contact-form">
+            <h3>Kontakt skjema</h3>
+            <form>
+              <input type="text" name="fnavn" placeholder="Fornavn" required />
+              <input type="text" name="mnavn" placeholder="Mellomnavn" />
+              <input
+                type="text"
+                name="enavn"
+                placeholder="Etternavn"
+                required
+              />
+              <input
+                type="email"
+                name="e-post"
+                placeholder="E-post adresse"
+                required
+              />
+              <textarea name="melding" placeholder="Skriv din melding" required>
+              </textarea>
+              <button type="submit">Send</button>
+            </form>
+          </div>
+          <!--Useful Links-->
+          <div id="footer-link">
+            <ul>
+              <li>Hurtig Lenker</li>
+              <li><a href="index.html#about-us">Om oss</a></li>
+              <li><a href="index.html#activities">Aktiviteter</a></li>
+              <li><a href="index.html#gallery">Bildegalleri</a></li>
+              <li><a href="destinations.html">Populær Destinasjoner</a></li>
+              <li><a href="#plan-holiday">Ferie Planlegger</a></li>
+            </ul>
+          </div>
+        </div>
+        <!--Copyright-->
+        <div id="copyright">
+          <p>&copy; Vinterland 2025. Alle rettigheter reservert.</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
